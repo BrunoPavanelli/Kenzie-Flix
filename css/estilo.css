@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* Configurações Gerais */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+}
+
+.container-geral {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Logo */
+
+.logo {
+    margin: 70px 0 10px 0;
+}
+
+/* Quem está assistindo e autor */
+
+.container-geral h1 {
+    color: white;
+    margin: 50px 0 30px 0; 
+    font-size: 24px;  
+}
+
+.autor, a {
+    color: rgba(255, 255, 255, 0.065);
+}
+
+/* Box dos Usuários mais Adicionar Perfil */
+ .boxUsuarios {   
+    display: flex;
+    max-width: 700px;
+    height: 186px;
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px;
+ }
+
+.boxUser  {
+    max-width: 160px;   
+}
+
+.boxUser .imgbox {
+    width: 100%;
+    margin: 0;
+    border: 2px solid rgba(0, 0, 0, 0.062);
+    border-radius: 10px;
+    height: 160px;
+    background-color: rgba(128, 128, 128, 0.288);
+}
+
+.boxUser .imgbox .plus {
+    margin: 45px;
+    border: 2px solid rgba(0, 0, 0, 0.062);
+    border-radius: 10px;
+    opacity: 0.5;
+}
+
+.boxUser .imgbox:hover {
+    border: 3px solid grey;
+}
+
+figcaption {
+    text-align: center;
+    color: whitesmoke;
+}
+
+/* Button */
+
+button {
+    color: white;
+    background-color: black;
+    font-size: 19px;
+    margin-top: 80px;
+    padding: 12px 35px;
+    border: 2px solid white;
+    text-align: center;
+    border-radius: 10px;
+    transition: 0.8s;
+}
+
+.container-geral button:hover {
+    color: rgba(0, 0, 0, 0.829);
+    background-color: white;
+}
+
+
